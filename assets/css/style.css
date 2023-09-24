@@ -144,12 +144,42 @@ html {
   cursor: pointer;
 }
 
-#slider {
+/* #slider {
   position: relative;
   margin-top: 46px;
   padding-top:80%;
   background: url('../image/josh-hild-iWO5CQRCZZY-unsplash.jpg') top center / cover no-repeat;
+} */
+
+/*  */
+#slider {
+  position: relative;
 }
+.slide {
+  position: relative;
+  margin-top: 46px;
+  padding-top:80%;
+}
+.slide:nth-child(1) {
+  background: url('../image/max-bender-yb7Yg3Rv7WA-unsplash.jpg') top center / cover no-repeat;
+}
+
+.slide:nth-child(2) {
+  background: url('../image/josh-hild-iWO5CQRCZZY-unsplash.jpg') top center / cover no-repeat;
+}
+
+.slide:nth-child(3) {
+  background: url('../image/the-bridge.jpg') top center / cover no-repeat;
+}
+
+.slide:nth-child(4) {
+  background: url('../image/beach.jpg') top center / cover no-repeat;
+}
+
+.slide:nth-child(5) {
+  background: url('../image/berlin.jpg') top center / cover no-repeat;
+}
+/*  */
 
 #slider .text-content {
   position: absolute;
